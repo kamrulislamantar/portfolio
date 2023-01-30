@@ -1,0 +1,37 @@
+@import 'utilities.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+body{
+    font-family: 'recursive',sans-serif;
+}
+header{
+     background-color: rgb(22, 22, 22);
+     height: 800px;
+}
+.container {
+    max-width: 1152px;
+    padding:0 15px;
+    margin: 0 auto;
+    padding: 5px 0;
+   
+
+}
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+header nav {
+    padding: 2rem 0;
+
+}
+header nav .left a:hover {
+    color: rgb(119, 86, 150);
+}
