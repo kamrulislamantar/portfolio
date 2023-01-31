@@ -22,7 +22,7 @@
   
 }
 .btn-primary:hover{
-    background: transparent;
+    background: transparent !important;
     border-color: rgb(119, 86, 150);
     color: rgb(119, 86, 150);
   
