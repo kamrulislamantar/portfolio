@@ -27,3 +27,19 @@
     color: rgb(119, 86, 150);
   
 }
+.btn-secondary {
+    background: transparent;
+    color:  rgb(119, 86, 150);
+    border-color:  rgb(119, 86, 150);
+}
+.btn-secondary:hover{
+    background:  rgb(119, 86, 150);
+    color: white;
+
+}
+.flex-1{
+   flex:1; 
+}
+.justify-center{
+    justify-content: center;
+}
