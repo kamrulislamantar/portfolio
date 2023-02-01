@@ -17,6 +17,8 @@
     transition: .3s ease;
 }
 .btn-primary{
+   
+    
     background:rgb(119, 86, 150);
     color: black;
   
@@ -37,8 +39,10 @@
     color: white;
 
 }
-.flex-1{
+.flex-1 img{
+    
    flex:1; 
+  
 }
 .justify-center{
     justify-content: center;

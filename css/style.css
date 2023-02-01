@@ -173,3 +173,119 @@ section.services .card-wrapper .card:hover h2, section.services .card-wrapper .c
     color: white;
    
 }
+
+#con{
+    text-decoration: none;
+    color: white;
+   
+}
+
+
+
+
+section.blog{
+    background:rgb(234, 231, 231);
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+    padding-bottom:12rem;
+}
+section.blog .section-heading{
+    color:rgb(119, 86, 150);
+}
+section.blog .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:3rem;
+}
+section.blog .card-wrapper .card{
+    background:white;
+}
+section.blog .card-wrapper .card .img-wrapper img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+section.blog .card-wrapper .card .card-content{
+    padding:1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+section.blog .card-wrapper .card .card-content h1{
+    font-size:1rem;
+    font-weight:600;
+}
+section.blog .card-wrapper .card .card-content a{
+    color:rgb(119, 86, 150);
+    text-decoration: none;
+}
+section.blog .card-wrapper .card .card-content a:hover{
+    color:varrgb(119, 86, 150);
+}
+section.blog .card-wrapper .card .card-content span{
+   color:rgb(202, 35, 35);
+   font-size:0.8rem; 
+}
+section.blog .card-wrapper .card .card-content p{
+    font-family:'Lato', sans-serif;
+    color:black;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+section.blog .card-wrapper .card .card-content a.read-more{
+    font-size:0.8rem;
+}
+
+
+
+
+
+
+section.contact .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:3rem;
+}
+section.contact .card-wrapper .card{
+    text-align: center;
+}
+section.contact .card-wrapper .card img{
+    margin-bottom: 3rem;
+}
+section.contact .card-wrapper .card h1{
+    font-weight:400;
+    margin-bottom:1rem;
+}
+section.contact .card-wrapper .card h6{
+    font-size:1rem;
+    color:rgb(119, 86, 150);
+    font-weight:400;
+    margin-bottom:4rem;
+}
+
+
+
+
+.social2 , .copyright{
+    align-items: center;
+    display: flex;
+    flex-direction: row !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.social2 a{
+    
+    
+    
+    transition: 3s ease;
+
+}
+.socialicon2{ 
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.socialicon2:hover {
+    background: rgb(119, 86, 150);
+}
